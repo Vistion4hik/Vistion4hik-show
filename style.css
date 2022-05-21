@@ -1,6 +1,11 @@
 header{
     background-image: linear-gradient(darkorchid, indigo);
     text-align: center;
+    padding: 30px;
+}
+
+header a{
+    color: white;
 }
 
 main{
@@ -12,13 +17,27 @@ main{
 footer{
     color: white;
     background-color: black;
+    padding: 50px;
 }
 
 main img{
-    width:100%;
+    width: 100px;
+    height: 140px;
 }
 
 body{
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%);
     font-size: 30px;
+}
+
+.sumeru{
+    width: 285px;
+    height: 190px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik One';
 }
