@@ -1,0 +1,12 @@
+header{
+    background-image: linear-gradient(thistle, darkorchid, indigo);
+}
+
+footer{
+    color: white;
+    background-color: orchid;
+}
+
+footer p{
+    margin-left: 37%;
+}
